@@ -1,0 +1,83 @@
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #ffffff;
+}
+.shadow {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 30vh;
+}
+
+h1 {
+  text-align: center;
+  font-size: 28px;
+  margin-bottom: 30px;
+}
+
+.search-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+input[type="text"] {
+  flex: 1;
+  padding: 10px;
+  font-size: 16px;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #610202;
+  color: #f6f6f6;
+  border: none;
+  cursor: pointer;
+}
+h4{  
+  text-align: center;
+  font-size: 28px;
+  margin-bottom: 30px;
+  color: #840606;
+
+
+}
+
+.movie-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.movie-item {
+  margin-bottom: 20px;
+  padding: 20px;
+  background-color: #de8383;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.movie-item img {
+  max-width: 100px; /* Réglez la largeur maximale souhaitée */
+  height: auto;
+}
+
+
+.movie-title {
+  font-size: 18px;
+  font-weight: bold;
+  margin: 0 0 10px;
+}
+
+.movie-info {
+  font-size: 14px;
+  margin: 0 0 5px;
+}
+
+.movie-overview {
+  font-size: 14px;
+  margin-top: 10px;
+}
